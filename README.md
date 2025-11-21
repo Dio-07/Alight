@@ -19,7 +19,7 @@ tip: Some files like main.cpp will get replaced
 
 in the end your relevant format should look like this:
 
-<img width="150" height="400" alt="image" src="https://github.com/user-attachments/assets/f4d24537-d755-4591-8c42-3b2c4935ff0e" />
+<img width="140" height="400" alt="image" src="https://github.com/user-attachments/assets/f4d24537-d755-4591-8c42-3b2c4935ff0e" />
 
 
 
