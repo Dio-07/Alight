@@ -1,19 +1,8 @@
-################################################################################
-# Alight Robotics Library - Git Ignore Template
-# For a PROS-compatible library
-# This ignores OS junk, build files, editor metadata, and temp files
-################################################################################
-
-# -------------------------
 # OS GENERATED FILES
-# -------------------------
 .DS_Store
 Thumbs.db
 
-# -------------------------
 # BUILD ARTIFACTS
-# (object files, compiled binaries, static libs)
-# -------------------------
 *.o
 *.a
 *.out
@@ -23,25 +12,17 @@ bin/
 build/
 deploy/
 
-# -------------------------
 # EDITOR / IDE FOLDERS
-# -------------------------
 .vscode/
 .vs/
 .idea/
 *.swp
 
-# -------------------------
 # BACKUP / TEMP FILES
-# -------------------------
 *~
 *.tmp
 *.bak
 
-# -------------------------
-# PROS PROJECT META
-# DOES NOT ignore include/ or src/ (important!)
-# -------------------------
 *.d
 *.elf
 *.map
