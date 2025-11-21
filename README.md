@@ -17,7 +17,9 @@ https://lemlib.readthedocs.io/en/stable/index.html
 
 tip: Some files like main.cpp will get replaced
 
-in the end your relevant format should look like this: <img width="248" height="759" alt="image" src="https://github.com/user-attachments/assets/8943ed5e-56ca-4ca2-b333-98a27a3931b0" />
+in the end your relevant format should look like this:
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/f4d24537-d755-4591-8c42-3b2c4935ff0e" />
+
 
 
 ## Features
