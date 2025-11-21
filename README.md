@@ -17,20 +17,7 @@ https://lemlib.readthedocs.io/en/stable/index.html
 
 tip: Some files like main.cpp will get replaced
 
-in the end your relevant format should look like this:
-
-Project/
-├── include/
-│   └── alight/
-│       ├── driveFunctions.hpp
-│       ├── drivetrain.hpp
-│       ├── distanceSensor.hpp
-│
-├── src/ 
-|   └── alight/ 
-│       ├── driveFunctions.cpp
-│       └── distanceFinder.cpp 
-│   ├── main.cpp
+in the end your relevant format should look like this: <img width="248" height="759" alt="image" src="https://github.com/user-attachments/assets/8943ed5e-56ca-4ca2-b333-98a27a3931b0" />
 
 
 ## Features
