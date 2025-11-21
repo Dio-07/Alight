@@ -21,11 +21,16 @@ in the end your relevant format should look like this:
 
 Project/
 ├── include/
+
 │   └── alight/
+
 │       ├── driveFunctions.hpp
 │       ├── drivetrain.hpp
+
 │       ├── distanceSensor.hpp
+
 │       └── (any other headers)
+
 │
 ├── src/
 |   └── alight/
