@@ -8,6 +8,31 @@ Lemlib DOCS:
 https://lemlib.readthedocs.io/en/stable/index.html
 
 ## Installation 
+1. follow [this](https://lemlib.readthedocs.io/en/stable/tutorials/1_getting_started.html) tutorial on setitng up lemlib 
+2. download this repo
+3. unzip the file
+4. inside the folder move:
+   - alight folder into include
+   - move all files inside alight src folder into your project src
+
+tip: Some files like main.cpp will get replaced
+
+in the end your relevant format should look like this:
+
+Project/
+├── include/
+│   └── alight/
+│       ├── driveFunctions.hpp
+│       ├── drivetrain.hpp
+│       ├── distanceSensor.hpp
+│       └── (any other headers)
+│
+├── src/
+|   └── alight/
+│       ├── driveFunctions.cpp
+│       └── distanceFinder.cpp 
+│   ├── main.cpp
+
 
 ## Features
 - non-coordinate based drive functions
