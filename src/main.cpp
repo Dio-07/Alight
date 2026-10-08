@@ -1,7 +1,7 @@
 // v2.5
 #include "main.h"
 #include "lemlib/api.hpp" // IWYU pragma: keep
-#include "liblvgl/lvgl.h"
+#include "liblvgl/misc/lv_timer.h"
 #include "pros/abstract_motor.hpp"
 #include "pros/adi.hpp"
 #include "pros/colors.h"
