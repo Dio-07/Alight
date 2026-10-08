@@ -336,11 +336,11 @@ void screener::initAlightScreen(int ThemeHEX) {
     // Logo STUFF
     Image = lv_image_create(objArray[0]);
     lv_image_set_src(Image, &AviatorRoboticsLogo);
-    lv_obj_align(Image, LV_ALIGN_CENTER, 0, -80);
-    lv_image_set_scale(Image, 60);
+    lv_obj_align(Image, LV_ALIGN_CENTER, 0, 0);
+    lv_image_set_scale(Image, 50);
     lv_obj_set_style_image_opa(Image, LV_OPA_50, LV_PART_MAIN);
-    lv_obj_set_style_image_recolor(Image, lv_color_hex(THEME), LV_PART_MAIN);
-    lv_obj_set_style_image_recolor_opa(Image, LV_OPA_100, LV_PART_MAIN);
+    //lv_obj_set_style_image_recolor(Image, lv_color_hex(THEME), LV_PART_MAIN);
+    //lv_obj_set_style_image_recolor_opa(Image, LV_OPA_100, LV_PART_MAIN);
 
     /////////////////////////////////
     // MENU BUTTONS//////////////////
