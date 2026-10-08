@@ -171,7 +171,7 @@ alight::distanceFinder leftSensor(&leftDistSens,
 alight::Drive drive(&leftMotors, &rightMotors, &vertical, &drivePID);
 
 // Lever Controller
-//alight::leverFunction lever(&Motor2, 0, 0, 5, pros::E_MOTOR_GEAR_RED);
+alight::extendedPID preciseMotor(&motorExample, 0, 0, 5, pros::E_MOTOR_GEAR_BLUE);
 
 static alight::screener brainScreen;
 static void screen_timer_cb(lv_timer_t* timer) {
@@ -262,6 +262,8 @@ void AutonOne() {
 
     leftSensor.resetLeft(); // resets X coordinate
     backSensor.resetBack(); // resets Y coordinate
+
+    preciseMotor.moveTo(90); // example target degree
 }
  
 void AutonTwo(){

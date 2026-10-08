@@ -4,7 +4,7 @@
 #include "alight/distanceFinder.hpp" // Custom folder for distance sensor
 #include "alight/driveFunctions.hpp" // Custom folder for drive functions
 #include "alight/screen.hpp" // Screen Wizard
-#include "alight/leverControl.hpp"
+#include "alight/extendedPID.hpp"
 #include "alight/PIDCompute.hpp"
 
 #include <array>
